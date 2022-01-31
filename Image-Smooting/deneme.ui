@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1009</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ağırlıklı Ortalama Yumuşatması</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>120</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gauss Yumuşatması</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>290</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Median Yumuşatması</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>290</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bilateral Yumuşatma</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gozat">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>480</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gözat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="resim">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>150</y>
+     <width>181</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>90</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kernel Boyutunu Giriniz</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="tEditKernel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
